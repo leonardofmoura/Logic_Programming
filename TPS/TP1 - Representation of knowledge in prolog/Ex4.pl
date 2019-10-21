@@ -27,5 +27,5 @@ marriedAndLike(P1,P2,Drink) :-
 /* Answers
 a) marriedAndLike(ana,bruno,verde).
 b) mateches(Bebida,salmao).
-c) 
+c) matches(Verde,Comida).
 */
