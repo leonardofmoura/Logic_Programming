@@ -1,3 +1,4 @@
+% Fact representation
 male(aldo).
 male(lincoln).
 male(michael).

@@ -1,3 +1,4 @@
+% Fact representation
 pilot(lamb).
 pilot(besenyei).
 pilot(chambliss).
@@ -34,4 +35,21 @@ gates(istambul,9).
 gates(budapeste,6).
 gates(porto,5).
 
+/* Winning team in a certain race */
 winteam(Team,Race):-winner(Race,Pilot),team(Pilot,Team).
+
+/* Player won at least two races */
+wonMany(Player) :-  
+    winner(Cirquit1,Player),
+    winner(Cirquit2,Player),
+    Cirquit1 \= Cirquit2.
+
+/* Circuit has more than 8 gates */
+moreThan8(Circuit) :-
+    gates(Circuit,Num),
+    Num > 8.
+
+/* Pilot does not pilot Plane */
+doesNotPilot(Pilot,Plane) :-
+    plane(Pilot,P),
+    P \= Plane.
