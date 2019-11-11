@@ -1,5 +1,5 @@
-%Append predicate -> L is de concatenation of L1 and L2
+% Append predicate -> L is de concatenation of L1 and L2
 
-append1(L,[],L).
+append_([],L,L).
 
-append1(L1,[H2 | T2],L) :- append1([L1 | H2],T2,L).
+append_([X|L1],L2,[X|L]) :- append_(L1,L2,L).
