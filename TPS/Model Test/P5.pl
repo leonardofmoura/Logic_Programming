@@ -24,8 +24,7 @@ perf(Vis) :-
     write(Times), nl,
     perf([Elem|Vis]).
     
-perf(Vis) :-
-    performance(Elem,Times),
-    \+ member(Elem, Vis).
+perf(Vis).
+
 
 allPerfs :- perf([]).
