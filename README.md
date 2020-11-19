@@ -24,9 +24,9 @@ Tests I solved to better prepare myself for tests exams.
 
 ## Projects 
 
-Projects made to apply Logic Programming concepts in a wider system, to solve real problems.
+Projects made to apply Logic Programming concepts in a wider system, to solve real problems. They were both developed with my partner [João Campos](https://github.com/Pastilhas) and the the original repository they were developed on was can be found [here](https://github.com/Pastilhas/PLOG-FEUP).
 
-- **Gap:** Implementation and automatic solving of [Gap Puzzles](https://www2.stetson.edu/~efriedma/puzzle/gap/)
+- **Gap:** Implementation and automatic solving of [Gap Puzzles](https://www2.stetson.edu/~efriedma/puzzle/gap/).
 - **Mbrane:** Implementation of the [Mbrane](www.mbranegame.com/) game for both two players, a player vs the computer and two computers playing.
 
 ---
