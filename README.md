@@ -3,6 +3,11 @@ Repository created to host projects elaborated in the Logic Programming course.
 
 The Course focuses in Logic Programming concepts using Prolog. 
 
+Everything in this repository was made using [SICStus Prolog](https://sicstus.sics.se/?refdom=sics.se) which is not very friendly in the linux command line. So, in order to add support for command history we can run with the [rlwrap](https://linux.die.net/man/1/rlwrap) wrapper:
+```
+rlwrap sicstus4.5.1/bin/sicstus-4.5.1
+```
+
 ## Exercises 
 
 This folder stores exercises solved to gain some practical insight in Logic Programming. They are divided in Theoretical-Practical (TP) classes.
